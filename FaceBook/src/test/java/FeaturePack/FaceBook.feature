@@ -10,9 +10,9 @@ Scenario: A to Z Testing the website
     
     
      Examples:                                   
-          | Browsers    |         Productn           |No Of Products|
-          | Chrome      | Majestic Black, 128 GB     |     1        |
-          | Edge        | Majestic Black, 128 GB     |     1        |
-          | FireFox     | Majestic Black, 128 GB     |     1        |
+          | Browsers    |         User name          |   User name  |
+          | Chrome      | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
+          | Edge        | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
+          | FireFox     | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
      
      
