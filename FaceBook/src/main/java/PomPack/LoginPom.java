@@ -10,7 +10,7 @@ public class LoginPom extends BaseClass {
 
 	public static By UserName = By.xpath("//input[@aria-label=\"Email address or phone number\"]");
 
-	public void UserName() throws IOException {
+	public static void UserName() throws IOException {
 
 		driver.findElement(UserName).sendKeys("Dharakasundar99@gmail.com");
 
@@ -20,7 +20,7 @@ public class LoginPom extends BaseClass {
 
 	public static By password = By.xpath("//input[@placeholder=\"Password\"]");
 
-	public void password() throws IOException {
+	public static void password() throws IOException {
 
 		driver.findElement(password).sendKeys("GSHSHNSHS");
 
@@ -28,7 +28,7 @@ public class LoginPom extends BaseClass {
 
 	public static By Login = By.xpath("//button[@name=\"login\"]");
 
-	public void Login() throws IOException {
+	public static void Login() throws IOException {
 
 		driver.findElement(Login).click();
 
