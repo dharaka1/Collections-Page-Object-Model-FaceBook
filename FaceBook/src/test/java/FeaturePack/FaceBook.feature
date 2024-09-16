@@ -10,9 +10,9 @@ Scenario: A to Z Testing the website
     
     
      Examples:                                   
-          | Browsers    |         User name          |   User name  |
-          | Chrome      | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
-          | Edge        | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
-          | FireFox     | Dharakasundar99@gmail.com  |   GSHSHNSHS  |
+          | Browsers    |         User name          |   User password |
+          | Chrome      | Dharakasundar99@gmail.com  |   GSHSHNSHS     |
+          | Edge        | Dharakasundar99@gmail.com  |   GSHSHNSHS     | 
+          | FireFox     | Dharakasundar99@gmail.com  |   GSHSHNSHS     |
      
      
