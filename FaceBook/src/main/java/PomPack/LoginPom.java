@@ -16,7 +16,6 @@ public class LoginPom extends BaseClass {
         locators.put("Login", By.xpath("//button[@name='login']"));
     }
 
-    // Method to retrieve locators from the HashMap
     private static By getLocator(String key) {
         return locators.get(key);
     }
