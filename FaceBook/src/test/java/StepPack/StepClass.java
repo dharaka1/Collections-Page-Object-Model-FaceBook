@@ -30,9 +30,9 @@ public class StepClass extends BaseClass {
 	    
 		try
 		{ 
-			ps.UserName();
-			ps.password();
-            ps.Login();
+			ps.enterUserName();
+			ps.enterPassword();
+            ps.clickLogin();
 
 		}
 			catch (Exception e) {
