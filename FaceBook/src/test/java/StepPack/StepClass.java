@@ -12,8 +12,6 @@ public class StepClass extends BaseClass {
 
 	LoginPom ps=new LoginPom();
 	
-	HashMap<String, String>credintials=new HashMap<String, String>();
-
 	@Given("User launch {string}")
 	public void user_launch(String string) {
 
